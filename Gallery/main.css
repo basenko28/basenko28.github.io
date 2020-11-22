@@ -1,18 +1,21 @@
 body{
-	background-color: pink;
+	background-image: url(img/9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 .main{
 	width: 80%;
 	margin: auto;
-
 	border: 1px solid black;
 	border-radius: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	box-shadow: 3px 3px 8px black;
-	background-color: pink;
-
+	background-image: url(img/9.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .item{
 	width: 47%;
@@ -28,6 +31,7 @@ body{
 	opacity: 1;
 	transform: scale(0.9);
 	transform: scale(0.9) rotate(360deg);
+	z-index: 100;
 }
 .img1{
 	background-image: url(img/1.jpg);
