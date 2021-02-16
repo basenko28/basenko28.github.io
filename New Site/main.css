@@ -1,11 +1,68 @@
+/*@keyframes lighting{
+			0%{
+				background-color: ;
+				box-shadow: 1px 1px 5px purple;
+			}
+			25%{
+				background-color: orange;
+				box-shadow: 1px 1px 5px orange;
+				border-radius: 20%;
+				transform: scale(1.2);
+			}
+			50%{
+				background-color: red;
+				box-shadow: 1px 1px 5px red;
+				opacity: 0.5;
+			}
+			75%{
+				background-color: green;
+				box-shadow: 1px 1px 5px green;
+			}
+			100%{
+				background-color: blue;
+				box-shadow: 1px 1px 5px blue;
+				transform: rotate(180deg);
+			}
+		}
+.cristmas{
+	display: flex;
+}
+.light{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+.l1{
+	animation: lighting 2s linear infinite;
+}
+.l2{
+	animation: lighting 3s linear infinite;
+}
+.l3{
+	animation: lighting 4s linear infinite;
+}
+.l4{
+	animation: lighting 3.5s linear infinite;
+}
+.l5{
+	animation: lighting 2.5s linear infinite;
+}
+*/
+
 *{
-	font-family: cursive;
+	font-family: 'Poiret One', cursive;
 }
 .navigation{
-	height: 120px;
+	height: 100px;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	width: 100%;
 }
 .logo{
 	margin-left: 100px;
@@ -28,3 +85,120 @@
 	color: white;
 	border-radius: 10px;
 }
+/* Начало Header */
+.header {
+	height: 650px;
+	background-image: url(img/3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.blackout{
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-content {
+	text-align: center;
+	color: white;
+}
+.header-content > h1{
+	font-size: 50px;
+}
+.header-content > p{
+	font-size: 30px;
+}
+.btn{
+	color: white;
+	border: 1px solid white;
+	border: 3px solid #00897b; 
+	text-decoration: none;
+	display: inline-block;
+	width: 220px;
+	height: 65px;
+}
+.btn:hover{
+	border: none;
+	background-color: #00897b;
+}
+/* Конец Header */
+/* Начало About As */
+.about{
+	text-align: center;
+}
+.about-item{
+	width: 30%;
+}
+.about-top{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.about-bot{
+	display: flex;
+	justify-content: space-around;
+}
+/* Конец About Us */
+
+/* Начало Services */
+.services{
+	background-color: #e4fdf9;
+	text-align: center;
+}
+.services-top{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.services-bot{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.services-item{
+	background-color: white;
+	width: 28%;
+	margin: 20px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.services-img{
+	width: 300px;
+	height: 150px;
+}
+/* Конец Services */
+/* Начало Blog*/
+.blog{
+	background-color: #e4fdf9;
+	margin: 20px;
+}
+.blog-top{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.blog-bot{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.blog-item{
+	width: 46%;
+	height: 350px;
+	padding: 5px;
+}
+.blog-item-img1{
+	background-image: url(img/13.png);
+	background-size: cover;
+	background-position: center;
+}
+.blog-item-img2{
+	background-image: url(img/75.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.blog-item-img3{
+	background-image: url(img/77.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/* Конец Blog*/
